@@ -24,6 +24,10 @@ window.DASHBOARD_DATA = {
           title: "為什麼學這些？",
           points: [
             {
+  desc: "每次要合併的改動都先通過自動化驗證，一次都不漏掉。"
+  done: false,
+},
+            {
               text: "為什麼是 Git？",
               desc: "版本控制是整個自動化流程的起點，所以課程從它開始。",
               done: false,

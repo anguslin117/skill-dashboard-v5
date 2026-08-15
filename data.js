@@ -1339,7 +1339,7 @@ window.DASHBOARD_DATA = {
       kind: "week",
       week: 4,
       module: "GUARD",
-      title: "自動化檢查，讓紅燈擋在合併之前",
+      title: "自動化檢查，讓紅燈擋在合併之前--這是新增的功能",
       groups: [
         {
           no: "01",
@@ -1353,17 +1353,17 @@ window.DASHBOARD_DATA = {
             {
               text: "持續整合（CI）",
               desc: "每次要合併的改動都先通過自動化驗證，一次都不漏掉。",
-              done: false,
+              done: true,
             },
             {
               text: "持續交付（CD）",
               desc: "驗證通過就自動出貨上線，中間不需要有人動手操作。",
-              done: false,
+              done: true,
             },
             {
               text: "人審與機審",
               desc: "拉取請求看意圖，CI 看事實——一個看你想做什麼，一個看有沒有壞。",
-              done: false,
+              done: true,
             },
             {
               text: "本機跑與機器跑",
